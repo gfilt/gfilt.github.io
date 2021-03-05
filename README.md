@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<h1 align="center">GFilt</h1>
 
-You can use the [editor on GitHub](https://github.com/gfilt/gfilt.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <a href="https://gmail.com" target="_blank" rel="noreferrer">
+    <img src="https://static.prasadt.com/logos/google/svg/gmail.svg" height="64" align="center" alt="gmail">
+  </a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h4 align="center">A CLI app to manage GMail filters.</h4>
 
-### Markdown
+## About
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Currently this app is private.
 
-```markdown
-Syntax highlighted code block
+## Notes & Limitations
 
-# Header 1
-## Header 2
-### Header 3
+1. Please download your existing filters from the Web-UI, BEFORE using this tool.
+1. GMail limits number of filters with forwarding action to 20.
+1. This app will **NOT** take any actions on existing E-Mails.
+1. Converting existing filters is experimental.
 
-- Bulleted
-- List
+## Privacy & Security
 
-1. Numbered
-2. List
+1. This app is **NOT** yet verified.
+1. This app communicates directly with GMail API and all tokens and credentials are **ONLY** stored **LOCALLY**.
+1. You are welcome to set your own OAUTH app credentials, should you choose to.
+4. This app has NO access to contents or metadata
+   of your E-Mails.
 
-**Bold** and _Italic_ and `Code` text
+## Permissions
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gfilt/gfilt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Reason             | Permission
+|--------------------|---
+| Manage labels      | `gmail.labels`
+| Manage filters     | `gmail.settings.basic`
+| Audit settings     | `gmail.settings.basic`
+| Know your GMail ID | `userinfo.email`
