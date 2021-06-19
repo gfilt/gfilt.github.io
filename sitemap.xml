@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>www.example.com/about/</loc></url><url><loc>www.example.com/categories/</loc></url><url><loc>www.example.com/</loc></url><url><loc>www.example.com/manual/gfilt/</loc></url><url><loc>www.example.com/manual/gfilt_completion/</loc></url><url><loc>www.example.com/manual/gfilt_info/</loc></url><url><loc>www.example.com/manual/gfilt_version/</loc></url><url><loc>www.example.com/install/</loc></url><url><loc>www.example.com/about/limitations/</loc></url><url><loc>www.example.com/install/linux/</loc></url><url><loc>www.example.com/manual/</loc></url><url><loc>www.example.com/about/privacy/</loc></url><url><loc>www.example.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://gfilt.github.io/about/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/categories/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/install/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/about/limitations/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/install/linux/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/about/privacy/</loc>
+  </url><url>
+    <loc>https://gfilt.github.io/tags/</loc>
+  </url>
+</urlset>

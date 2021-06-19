@@ -1,9 +1,178 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><title>Linux - GFilt</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=www.example.com/favicon.png><link rel=stylesheet href=/www.example.com/css/style.min.0b3ed72c4361bd3a7c0d26f0ddcaff9474fa5af4ea7e2a772f58aab8a495931c.css></head><body class="page page-default-single"><div id=main-menu-mobile class=main-menu-mobile><ul><li class=menu-item-home><a href=www.example.com/><span>Home</span></a></li><li class=menu-item-manual><a href=www.example.com/manual/><span>Manual</span></a></li><li class=menu-item-install><a href=www.example.com/install/><span>Install</span></a></li><li class=menu-item-about><a href=www.example.com/about/><span>About</span></a></li></ul></div><div class=wrapper><div class=header><div class=container><div class=logo><a href=www.example.com><img alt=Logo src=https://static.prasadt.com/logos/projects/gfilt/scalable/gfilt.svg></a></div><div class=logo-mobile><a href=www.example.com><img alt=Logo src=https://static.prasadt.com/logos/projects/gfilt/scalable/gfilt.svg></a></div><div id=main-menu class=main-menu><ul><li class=menu-item-home><a href=www.example.com/><span>Home</span></a></li><li class=menu-item-manual><a href=www.example.com/manual/><span>Manual</span></a></li><li class=menu-item-install><a href=www.example.com/install/><span>Install</span></a></li><li class=menu-item-about><a href=www.example.com/about/><span>About</span></a></li></ul></div><button id=toggle-main-menu-mobile class="hamburger hamburger--slider" type=button>
-<span class=hamburger-box><span class=hamburger-inner></span></span></button></div></div><div class="container pt-2 pt-md-6 pb-3 pb-md-6"><div class=row><div class="col-12 col-md-3 mb-3"><div class=sidebar><div class=docs-menu><h4>Install</h4><ul><li class=active><a href=www.example.com/install/linux/>Linux</a></li></ul></div></div></div><div class="col-12 col-md-9"><h1 class=title>Linux</h1><div class="content anchor-link-enabled"><h2 id=using-install-script>Using Install Script</h2><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -sSfL https://install.prasadt.com/gfilt <span class=p>|</span> bash -s --
-</code></pre></div><p>To upgrade existing binary usem</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -sSfL https://install.prasadt.com/gfilt <span class=p>|</span> bash -s --upgrade
-</code></pre></div><p>To install exact version use <code>--version &lt;VERSION_TAG></code>.</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -sSFL https://install.prasadt.com/gfilt <span class=p>|</span> bash -s -- --version v0.2.1
-</code></pre></div><p>By default we will only install for the user running the script. If you wish to install for all users on
-the system, simpley run the script as root.</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -sSFL https://install.prasadt.com/gfilt <span class=p>|</span> sudo bash -s --
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Linux - GFilt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://gfilt.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.0b3ed72c4361bd3a7c0d26f0ddcaff9474fa5af4ea7e2a772f58aab8a495931c.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="../../">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-manual">
+      <a href="../../manual/">
+        <span>Manual</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-install">
+      <a href="../../install/">
+        <span>Install</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="../../about/">
+        <span>About</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://gfilt.github.io"><img alt="Logo" src="https://static.prasadt.com/logos/projects/gfilt/scalable/gfilt.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://gfilt.github.io"><img alt="Logo" src="https://static.prasadt.com/logos/projects/gfilt/scalable/gfilt.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="../../">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-manual">
+      <a href="../../manual/">
+        <span>Manual</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-install">
+      <a href="../../install/">
+        <span>Install</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-about">
+      <a href="../../about/">
+        <span>About</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Install</h4>
+  <ul>
+    
+    <li class="active ">
+      <a href="https://gfilt.github.io/install/linux/">Linux</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Linux</h1>
+<div class="content anchor-link-enabled">
+  <h2 id="using-the-install-script">Using the install Script</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSfL https://install.prasadt.com/gfilt <span class="p">|</span> bash -s --
+</code></pre></div><p>To upgrade existing binary usem</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSfL https://install.prasadt.com/gfilt <span class="p">|</span> bash -s --upgrade
+</code></pre></div><p>To install exact version use <code>--version &lt;VERSION_TAG&gt;</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSFL https://install.prasadt.com/gfilt <span class="p">|</span> bash -s -- --version v0.2.1
+</code></pre></div><p>By default we will only install for the user, who is running the script. If you wish to install for all users on
+the system, simpley run the script as root.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSFL https://install.prasadt.com/gfilt <span class="p">|</span> sudo bash -s --
 </code></pre></div><p>To see more available options like skipping checksum verification and skip installing manpages etc,
-run the script with <code>-h</code> or <code>--help</code> flag.</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -sSFL https://install.prasadt.com/gfilt <span class=p>|</span> sudo -s -- <span class=nb>help</span>
-</code></pre></div></div></div></div></div></div></div><script type=text/javascript src=/www.example.com/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js></script></body></html>
+run the script with <code>-h</code> or <code>--help</code> flag.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSFL https://install.prasadt.com/gfilt <span class="p">|</span> sudo -s -- <span class="nb">help</span>
+</code></pre></div><h2 id="using-homeberew">Using Homeberew</h2>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="../../js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>

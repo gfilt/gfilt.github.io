@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installs on GFilt</title><link>www.example.com/install/</link><description>Recent content in Installs on GFilt</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="www.example.com/install/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux</title><link>www.example.com/install/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/install/linux/</guid><description>Using Install Script curl -sSfL https://install.prasadt.com/gfilt | bash -s -- To upgrade existing binary usem</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installs on GFilt</title>
+    <link>https://gfilt.github.io/install/</link>
+    <description>Recent content in Installs on GFilt</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gfilt.github.io/install/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://gfilt.github.io/install/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gfilt.github.io/install/linux/</guid>
+      <description>Installation instructions for Linux</description>
+    </item>
+    
+  </channel>
+</rss>

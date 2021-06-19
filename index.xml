@@ -1,5 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GFilt</title><link>www.example.com/</link><description>Recent content on GFilt</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="www.example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>gfilt</title><link>www.example.com/manual/gfilt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/manual/gfilt/</guid><description>gfilt A CLI app to manage GMail filters
-Options -c, --credentials string path to credentials.</description></item><item><title>gfilt-completion</title><link>www.example.com/manual/gfilt_completion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/manual/gfilt_completion/</guid><description>gfilt completion Generate shell completion
-Synopsis Generates shell completions. Supports fish, bash, zsh and powershell.</description></item><item><title>gfilt-info</title><link>www.example.com/manual/gfilt_info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/manual/gfilt_info/</guid><description>gfilt info Show notes and privacy information
-gfilt info Options -h, --help help for info Options inherited from parent commands -c, --credentials string path to credentials.</description></item><item><title>gfilt-version</title><link>www.example.com/manual/gfilt_version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/manual/gfilt_version/</guid><description>gfilt version Display version information
-gfilt version [flags] Examples $ gfilt version --format=json $ gfilt version --short Options --format string output format (default &amp;#34;pretty&amp;#34;) -h, --help help for version --short output just the version Options inherited from parent commands -c, --credentials string path to credentials.</description></item><item><title>Limitations</title><link>www.example.com/about/limitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/about/limitations/</guid><description>About Limitations and API status</description></item><item><title>Linux</title><link>www.example.com/install/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/install/linux/</guid><description>Using Install Script curl -sSfL https://install.prasadt.com/gfilt | bash -s -- To upgrade existing binary usem</description></item><item><title>Privacy</title><link>www.example.com/about/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>www.example.com/about/privacy/</guid><description>Privacy &amp;amp; Security This app is NOT yet verified. This app communicates directly with GMail API and all tokens and credentials are ONLY stored LOCALLY.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GFilt</title>
+    <link>https://gfilt.github.io/</link>
+    <description>Recent content on GFilt</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gfilt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limitations</title>
+      <link>https://gfilt.github.io/about/limitations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gfilt.github.io/about/limitations/</guid>
+      <description>About Limitations and API status</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://gfilt.github.io/install/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gfilt.github.io/install/linux/</guid>
+      <description>Installation instructions for Linux</description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://gfilt.github.io/about/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gfilt.github.io/about/privacy/</guid>
+      <description>Privacy &amp;amp; Security  This app is NOT yet verified. This app communicates directly with GMail API and all tokens and credentials are ONLY stored LOCALLY.</description>
+    </item>
+    
+  </channel>
+</rss>
